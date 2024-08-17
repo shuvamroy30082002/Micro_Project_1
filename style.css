@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+ padding-top: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter;
+    color: #282828;
+    background-color: #FFCD9E;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content {
+    max-width: 600px;
+    font-weight: 500;
+    size: 20px;
+}
+
+.content h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 54px;
+    size: 36px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #484848;
+    line-height: 32px;
+}
+
+.sub-text {
+    font-weight: 800;
+    color: #282828;
+    font-family: inter;
+    line-height: 32px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    flex: 1;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: inter;
+    color:#FFFFFF;
+    background-color: #333;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    line-height: 24.2px;
+    align-items: center;
+    width: 216px;
+    height: 64px;
+}
+
+.footer-note {
+    font-size: 16px;
+    color: #fff;
+    line-height: 25.6px;
+    margin-top:49px;
+}
+
+.image-container img {
+    max-width: 400px;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-info {
+    text-align: right;
+}
+
+.footer-info p {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.social-icons a {
+    display: inline-block;
+}
